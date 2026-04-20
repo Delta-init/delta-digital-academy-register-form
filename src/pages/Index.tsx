@@ -203,7 +203,7 @@ const Index = () => {
         photoFile:         await toFile(answers.photoFile),
       };
 
-      const res    = await fetch("https://script.google.com/macros/s/AKfycbxRFTYBt0LxtINLCd40t-PrHE5X6rIdZdVb7cJ5UcembHxjfwACFv1uwdDha_BYY1DWTg/exec", {
+      const res    = await fetch("https://script.google.com/macros/s/AKfycbwoi85vwt-gUYvBd3-qNqXuw_e4Jg0bG44MEwXIj5Vmky5uzxY18SxDveGCc_95M6euaw/exec", {
         method: "POST",
         headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify(payload),
