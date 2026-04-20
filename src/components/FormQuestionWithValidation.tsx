@@ -519,7 +519,7 @@ export function FormQuestionWithValidation({
                 }}
               >
                 <p className="font-extrabold text-primary text-[10px] uppercase tracking-widest mb-2">
-                  Delta Digital Academy - Terms and Conditions
+                 Delta Digital Academy - Enrollment Terms
                 </p>
                 <div className="whitespace-pre-line">{question.subtitle}</div>
                 {/* Bottom spacer so last line isn't hidden under gradient */}
