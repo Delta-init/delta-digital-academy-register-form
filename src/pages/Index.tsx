@@ -42,7 +42,7 @@ const questions: Question[] = [
   { id: "residenceAddress", type: "textarea", title: "11. Residence Address",            required: true,  placeholder: "Apartment, Building, Area, City…" },
   { id: "homeAddress",      type: "textarea", title: "12. Home Address / Native Address", required: true, placeholder: "House No., Street, City, Country…" },
   { id: "idProofFile",  type: "file", title: "13. ID Proof (National ID / Passport / Emirates ID)", required: true,  subtitle: "Upload a clear copy of your ID (PDF, JPG or PNG · Max 5 MB)", multiple: false, maxFiles: 1 },
-  { id: "photoFile",    type: "file", title: "14. Photo (Attendee)",                     required: false, subtitle: "Passport size photo preferred (JPG or PNG) · Optional", multiple: false, maxFiles: 1, accept: "image/*" },
+  { id: "photoFile",    type: "file", title: "14. Photo (Attendee)",                     required: true, subtitle: "Passport size photo preferred (JPG or PNG) · Optional", multiple: false, maxFiles: 1, accept: "image/*" },
   {
     id: "preferredLanguage", type: "select", title: "15. Preferred Language", required: true,
     options: ["English", "Malayalam"],
